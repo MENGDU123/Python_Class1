@@ -48,11 +48,21 @@
 # print(2025,"03",31,sep=":",end=" ")
 # print(13,51,10,sep=":")
 
-y = 2025
-m = 3
-d =31
-h = 13
-minute = 51
-sec = 10
-print("%04d"%y,"%02d"%m,"%02d"%d,sep = "-",end = " ")
-print("%02d"%h,"%02d"%minute,"%02d"%sec,sep = ":",end = "")
+# import time
+#
+# # 获取当前时间的时间戳
+# current_timestamp = time.time()
+#
+# # 将时间戳转换为本地时间
+# local_time = time.localtime(current_timestamp)
+#
+# # 格式化时间
+# formatted_time = time.strftime('%Y-%m-%d %H:%M:%S', local_time)
+#
+# print(formatted_time) # 输出例如：'2021-08-17 15:47:58'
+
+a = {"a":5,"b":6}
+
+a.clear()
+
+print(a)
